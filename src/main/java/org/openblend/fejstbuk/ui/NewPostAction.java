@@ -46,4 +46,7 @@ public class NewPostAction {
         s.setUser(em.find(User.class, user.getId()));
         em.persist(s);
     }
+    public void post2() {
+
+    }
 }

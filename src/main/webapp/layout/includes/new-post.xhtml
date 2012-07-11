@@ -2,12 +2,15 @@
         xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
         id="new-post-form">
     <div id="new-post">
-        <h:inputTextarea value="#{newPostAction.text}">
-
-        </h:inputTextarea>
+        <h:inputText value="#{newPostAction.text}" >
+        </h:inputText>
         <h:commandButton value="Post" action="#{newPostAction.post}">
 
         </h:commandButton>
+        <h:commandButton value="Posta"  action="#{newPostAction.post2}">
+
+        </h:commandButton>
+
 
     </div>
 </h:form>
